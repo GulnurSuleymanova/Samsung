@@ -714,7 +714,27 @@
 .dropdown-menu .container {
     padding: 10px;
 }
-
+.accordion-item{
+  border: none !important;
+}
+.accordion-button{
+background-color: #fff !important;
+color: #000 !important;
+box-shadow: none !important;
+}
+.accordion-button::after {
+  background: none !important;
+}
+.aco{
+  background-color: #000;
+  border-radius: 50%;
+  width: 21px;
+  height: 20px;
+  color: #fff !important;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 10px;
+}
 .qrupbtn{
   .container {
     background-color: #ffffff; 
@@ -739,9 +759,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .two-section, .three-section, .nine, .oneslider {
+  .two-section, .three-section, .nine  {
     display: none !important;
   }
-  
+  .oneslider h2 {
+   font-size: 20px;
+  }
+
 }
 
